@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "login": "user1",
+    "password": "12345678",
+    "name": "Иван",
+    "email": "ivan@example.com",
+    "phone": "+7 (123) 456-78-90",
+    "birthDate": "1990-05-15"
+  },
+  {
+    "id": 2,
+    "login": "user2", 
+    "password": "password456",
+    "name": "Петр",
+    "email": "petr@example.com",
+    "phone": "+7 (124) 567-89-00",
+    "birthDate": "1985-12-20"
+  },
+  {
+    "id": 3,
+    "login": "admin",
+    "password": "admin1234",
+    "name": "Администратор",
+    "email": "admin@example.com",
+    "phone": "+7 (111) 222-33-44",
+    "birthDate": "1980-08-10"
+  }
+]

@@ -1,0 +1,89 @@
+.myHeader {
+  width: 100%;
+  background: transparent;
+  border-bottom: 1px solid #000000;
+  .headerWrapp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .logo {
+    color: #252B42;
+    width: 53.27px;
+    height: 22.66px;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .btnWrapp {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    .contactsLink {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      text-align: center;
+      margin: 0;
+      color: #737373;
+      text-decoration: none;
+    }
+
+    button {
+      width: 186px;
+      height: 40px;
+      padding: 8px 60px;
+      border: 2px solid #FF685B;
+      border-radius: 7px;
+      background: transparent;
+      cursor: pointer;
+      font-size: 15px;
+      color: #FF685B;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        background: #FF685B;
+        color: white;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .myHeader {
+    .headerWrapp {
+      padding: 15px 20px;
+      gap: 15px;
+    }
+
+    .btnWrapp {
+      gap: 30px;
+      
+      button {
+        width: 150px;
+        padding: 8px 40px;
+      }
+    }
+  }
+}
+@media (max-width: 360px)
+{
+    .myHeader {
+    .btnWrapp {
+      button {
+        width: 105px;
+        padding: 8px 18px;
+      }
+    }
+  }
+}
