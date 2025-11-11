@@ -1,16 +1,32 @@
-# React + Vite
+React тестовое приложение.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Технологии
+React - фреймворк для построения пользовательских интерфейсов
+Vite - инструмент сборки для быстрой разработки
+React Router - маршрутизация между страницами
+SCSS Modules - стилизация компонентов
+LocalStorage - хранение данных авторизации
+📋 Функциональность
+🔐 Система авторизации - вход с валидацией данных
+👤 Личный кабинет - просмотр персональной информации
+📞 Страница контактов - контактная информация
+🏥 Медицинские услуги - блоки с описанием услуг
+📱 Адаптивный дизайн - корректное отображение на всех устройствах
+🛠 Установка и запуск
+Установка зависимостей
 
-Currently, two official plugins are available:
+npm install
+Запуск сервера разработки
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+npm run dev
+Сборка для продакшена
 
-## React Compiler
+npm run build
+Предпросмотр сборки
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npm run preview
+📖 Использование
+Перейдите на http://localhost:3000 (или указанный порт) после запуска npm run dev.
+Войдите в систему с помощью формы авторизации.
+Исследуйте личный кабинет, контакты и медицинские услуги.
+Приложение адаптируется под различные размеры экранов.
